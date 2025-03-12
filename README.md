@@ -11,7 +11,10 @@ This project provides a Gradio-based interface for interacting with the Ovis2-8B
 - Custom theme with interactive UI elements
 
 ## Installation
+## Option one
+Install via pinokio
 
+## Option 2
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.8+
