@@ -37,13 +37,6 @@ To start the Gradio interface, run the following command:
 python app.py
 ```
 
-### Command-Line Arguments
-| Argument       | Default Value            | Description                                       |
-|---------------|------------------------|---------------------------------------------------|
-| `--model_path` | `AIDC-AI/Ovis2-8B`       | Path to model (Hugging Face model ID or local path) |
-| `--port`       | `7860`                   | Port to run the Gradio interface                 |
-| `--host`       | `127.0.0.1`              | Host for the Gradio interface                     |
-
 ## Model Loading
 The script attempts to load the model with retry logic:
 1. Tries to load from a local path if available.
@@ -51,8 +44,6 @@ The script attempts to load the model with retry logic:
 3. Retries up to 3 times with exponential backoff.
 
 ## Features
-- Uses `torch.bfloat16` for improved performance.
-- Implements an enhanced timeout system for requests (120 seconds default).
 - Supports image and video input preprocessing.
 - Uses a `TextIteratorStreamer` for efficient text generation.
 
