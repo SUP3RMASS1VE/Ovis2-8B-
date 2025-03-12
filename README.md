@@ -1,4 +1,5 @@
 # Ovis2 Model with Gradio Interface
+![Screenshot 2025-03-12 143744](https://github.com/user-attachments/assets/968ff905-e70b-451f-909a-41aa67f91603)
 
 ## Overview
 This project provides a Gradio-based interface for interacting with the Ovis2-8B model. The script allows users to load the model, process image and video inputs, and generate text-based responses using a conversational chatbot.
