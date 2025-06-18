@@ -2,4 +2,3 @@ gradio
 transformers==4.49.0
 pillow==10.3.0
 moviepy==1.0.3
-https://huggingface.co/lldacing/flash-attention-windows-wheel/resolve/main/flash_attn-2.7.4+cu124torch2.6.0cxx11abiFALSE-cp310-cp310-win_amd64.whl
