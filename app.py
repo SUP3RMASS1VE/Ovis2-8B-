@@ -465,6 +465,6 @@ demo.launch(
     server_name=args.host,     # Host from command line
     server_port=args.port,     # Port from command line
     share=False,               # don't use Gradio's sharing feature
-    inbrowser=True,            # automatically open in browser
+    inbrowser=False,           # don't open in browser
     debug=True                 # show debug information
 )
